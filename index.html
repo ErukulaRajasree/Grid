@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        body{
+            display: flex;
+            margin: 0;
+            border: 0;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .con{
+            width: 350px;
+            height: 350px;
+            display: grid;
+            background-color: black;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-columns: repeat(6,1fr);
+            gap: 10px;
+        }
+        .item.i{
+            width: 50px;
+            height: 50px;
+        }
+        .container{
+            width: 650px;
+            height: 650px;
+            display: grid;
+            background-color: black;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-columns: repeat(6,1fr);
+            gap: 10px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        .a{
+            background-color:chocolate;
+        }
+        .b{
+            background-color: darkgoldenrod;
+        }
+        .c{
+            background-color: deeppink;
+        }
+        .d{
+            background-color: lightseagreen;
+        }
+        .e{
+            background-color: olive;
+        }
+        .f{
+            background-color: slateblue;
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+        }
+        .contain{
+            width: 350px;
+            height: 350px;
+            display: grid;
+            background-color: black;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-columns: repeat(6,1fr);
+            gap: 10px;
+        }
+        .item.i{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="a i item"></div>
+        <div class="b i item"></div>
+        <div class="c i item"></div>
+        <div class="d i item"></div>
+        <div class="e i item"></div>
+        <div class="f i item"></div>
+        
+        <div class="b i item"></div>
+        <div class="f i item"></div>
+        <div class="e i item"></div>
+        <div class="a i item"></div>
+        <div class="c i item"></div>
+        <div class="d i item"></div>
+
+        <div class="c i item"></div>
+        <div class="a i item"></div>
+        <div class="d i item"></div>
+        <div class="b i item"></div>
+        <div class="f i item"></div>
+        <div class="e i item"></div>
+
+        <div class="d i item"></div>
+        <div class="e i item"></div>
+        <div class="c i item"></div>
+        <div class="f i item"></div>
+        <div class="a i item"></div>
+        <div class="b i item"></div>
+
+        <div class="b i item"></div>
+        <div class="f i item"></div>
+        <div class="e i item"></div>
+        <div class="a i item"></div>
+        <div class="c i item"></div>
+        <div class="d i item"></div>
+
+        <div class="c i item"></div>
+        <div class="a i item"></div>
+        <div class="d i item"></div>
+        <div class="b i item"></div>
+        <div class="f i item"></div>
+        <div class="e i item"></div>
+    </div>
+    <div class="container">
+        <div class="a item"></div>
+        <div class="b item"></div>
+        <div class="c item"></div>
+        <div class="d item"></div>
+        <div class="e item"></div>
+        <div class="f item"></div>
+        
+        <div class="b item"></div>
+        <div class="f item"></div>
+        <div class="e item"></div>
+        <div class="a item"></div>
+        <div class="c item"></div>
+        <div class="d item"></div>
+
+        <div class="c item"></div>
+        <div class="a item"></div>
+        <div class="d item"></div>
+        <div class="b item"></div>
+        <div class="f item"></div>
+        <div class="e item"></div>
+
+        <div class="d item"></div>
+        <div class="e item"></div>
+        <div class="c item"></div>
+        <div class="f item"></div>
+        <div class="a item"></div>
+        <div class="b item"></div>
+
+        <div class="b item"></div>
+        <div class="f item"></div>
+        <div class="e item"></div>
+        <div class="a item"></div>
+        <div class="c item"></div>
+        <div class="d item"></div>
+
+        <div class="c item"></div>
+        <div class="a item"></div>
+        <div class="d item"></div>
+        <div class="b item"></div>
+        <div class="f item"></div>
+        <div class="e item"></div>
+    </div>
+    <div class="contain">
+        <div class="a i item"></div>
+        <div class="b i item"></div>
+        <div class="c i item"></div>
+        <div class="d i item"></div>
+        <div class="e i item"></div>
+        <div class="f i item"></div>
+        
+        <div class="b i item"></div>
+        <div class="f i item"></div>
+        <div class="e i item"></div>
+        <div class="a i item"></div>
+        <div class="c i item"></div>
+        <div class="d i item"></div>
+
+        <div class="c i item"></div>
+        <div class="a i item"></div>
+        <div class="d i item"></div>
+        <div class="b i item"></div>
+        <div class="f i item"></div>
+        <div class="e i item"></div>
+
+        <div class="d i item"></div>
+        <div class="e i item"></div>
+        <div class="c i item"></div>
+        <div class="f i item"></div>
+        <div class="a i item"></div>
+        <div class="b i item"></div>
+
+        <div class="b i item"></div>
+        <div class="f i item"></div>
+        <div class="e i item"></div>
+        <div class="a i item"></div>
+        <div class="c i item"></div>
+        <div class="d i item"></div>
+
+        <div class="c i item"></div>
+        <div class="a i item"></div>
+        <div class="d i item"></div>
+        <div class="b i item"></div>
+        <div class="f i item"></div>
+        <div class="e i item"></div>
+    </div>
+</body>
+</html>
